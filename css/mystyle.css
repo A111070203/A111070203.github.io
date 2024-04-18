@@ -7,3 +7,9 @@
   
   font-style: normal;
 }
+
+:root {
+  --bs-primary-rgb:214,51,132;
+  --bs-link-colar:214,51,132;
+  --bs-link-hover-color:rgb(214,51,132)
+}
