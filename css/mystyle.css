@@ -13,18 +13,13 @@
   --bs-link-colar:214,51,132;
   --bs-link-hover-color:rgb(214,51,132)
 }
-.portfolio-list {
-  list-style: none;
-  padding: 0;
+.social-icons a.social-icon {
+  color: rgb(226, 37, 125); /* 初始颜色 */
+  transition: color 0.3s ease; /* 添加过渡效果 */
 }
 
-.portfolio-list li {
-  margin-bottom: 20px;
+.social-icons a.social-icon:hover {
+  color: rgb(49, 219, 241); /* 悬停时的颜色 */
 }
 
-.portfolio-list img {
-  max-width: 100%;
-  height: auto;
-  float: left; /* 将图像向左浮动 */
-  margin-right: 20px; /* 可以根据需要调整图像之间的间距 */
-}
+
