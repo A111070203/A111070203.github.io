@@ -13,3 +13,18 @@
   --bs-link-colar:214,51,132;
   --bs-link-hover-color:rgb(214,51,132)
 }
+.portfolio-list {
+  list-style: none;
+  padding: 0;
+}
+
+.portfolio-list li {
+  margin-bottom: 20px;
+}
+
+.portfolio-list img {
+  max-width: 100%;
+  height: auto;
+  float: left; /* 将图像向左浮动 */
+  margin-right: 20px; /* 可以根据需要调整图像之间的间距 */
+}
